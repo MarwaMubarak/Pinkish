@@ -13,7 +13,6 @@ body{
     background-size: cover;
     position: relative;
     text-align: center;
-    height: ;
     background-position: 0;
 
 }
@@ -27,24 +26,24 @@ body{
 }
 h1
 {
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: 700;
     letter-spacing: 8px;
     margin-bottom: 2rem;
 }
 .im{
-margin-top: 10rem;
+margin-top: 2rem;
 margin-bottom:5rem;
 
 }
 h2{
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight:400;
 
 
 }
 p{
-    font-size: 2rem;
-    line-height: 5rem;
+    font-size: 1rem;
+    line-height: 1rem;
     margin-bottom: 5rem;
 }
