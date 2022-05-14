@@ -45,7 +45,7 @@
      margin-right: 25px;
      padding: 10px;
      border-radius: 10px;
-     background-color: #e5cedd;
+     background-color: #f9d7d8;
      color: black;
  }
  
@@ -60,7 +60,7 @@
  }
  
  a:hover {
-     background-color: #e5cedd;
+     background-color: #fee5e6;
      color: black;
  }
  
@@ -72,7 +72,7 @@
  }
  
  .home img {
-     margin: 0 0 25px;
+     display: flex;
      animation: animate 2s 1;
  }
  
