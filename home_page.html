@@ -11,6 +11,7 @@
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
+        background-color: #fee5e6;
     }
     
     .home {
@@ -28,7 +29,7 @@
         justify-content: center;
         flex-direction: column;
         font-size: 2vw;
-        color: rgb(231, 100, 198);
+        color: #ef5284;
     }
     
     nav {
@@ -40,7 +41,7 @@
     nav a {
         text-decoration: none;
         font-size: 20px;
-        color: rgb(129, 19, 89);
+        color: #ef5284;
         text-transform: uppercase;
         font-weight: bold;
         font-family: poppins;
@@ -63,17 +64,27 @@
     }
     
     nav {
-        padding: 50, 0, 0, 0;
+        padding: 50px, 0, 0, 0;
     }
     
     a:hover {
-        background-color: #f98ad2;
+        background-color: #e5cedd;
         color: black;
     }
     
     .home h1 {
         font-family: germania one;
         font-size: 65px;
+        margin: 0 0 25px;
+        animation: animate 2s 1;
+    }
+    
+    .home img {
+        margin: 0 0 25px;
+        animation: animate 2s 1;
+    }
+    
+    .home h2 {
         margin: 0 0 25px;
         animation: animate 2s 1;
     }
@@ -91,17 +102,22 @@
 <body>
 
 
+    <div>
+        <img src="./image/logo1-01.png" alt="Pinkish" width="100" height="100">
+    </div>
+
     <nav>
         <a class="activee" href="home_page.html">Home</a>
-        <a href="reservation_page.html">Reserve</a>
-        <a href="cancel_reservation.html">Cancel Reservation</a>
+        <a href="Serveses.html">Our Services</a>
         <a href="about.html">About</a>
 
 
     </nav>
-    <div class="home">
-        <h1>Pinkish</h1>
 
+
+    <div class="home">
+        <img src="./image/logo_word.png" alt="Pinkish" width="350" height="350">
+        <h2>Just A Girl Boss Building Her Empire</h2>
     </div>
 
 
