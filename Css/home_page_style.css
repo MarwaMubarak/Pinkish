@@ -1,0 +1,99 @@
+  body {
+      margin: 0;
+      padding: 0;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-color: #fee5e6;
+      /*background: linear-gradient(to right, rgb(255, 255, 255), pink);*/
+  }
+  
+  .home {
+      width: 100%;
+      height: 100vh;
+      background-position: top;
+      background-size: cover;
+      -webkit-background-size: cover;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -os-flex;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      font-size: 2vw;
+      color: ef5284;
+  }
+  
+  nav {
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      padding: 30px;
+  }
+  
+  nav a {
+      text-decoration: none;
+      font-size: 20px;
+      color: #ef5284;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-family: poppins;
+      margin-right: 25px;
+      padding: 10px;
+      border-radius: 10px;
+      font-family: "Trebuchet MS", Tahoma, sans-serif;
+  }
+  
+  nav .activee {
+      text-decoration: none;
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-family: poppins;
+      margin-right: 25px;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: #f9d7d8;
+      color: black;
+      font-family: "Trebuchet MS", Tahoma, sans-serif;
+  }
+  
+  nav {
+      padding: 50, 0, 0, 0;
+  }
+  
+  a:hover {
+      background-color: #fee5e6;
+      color: black;
+  }
+  
+  .home h2 {
+      font-family: "Trebuchet MS", Tahoma, sans-serif;
+      font-size: 30px;
+      margin: 0 0 25px;
+      animation: animate 2s 1;
+  }
+  
+  @keyframes animate {
+      0% {
+          transform: scale(0);
+      }
+      100% {
+          transform: scale(1);
+      }
+  }
+  
+  .header img {
+      float: left;
+      width: 150px;
+      height: 90px;
+  }
+  
+  .header h1 {
+      position: relative;
+      top: 18px;
+      left: 10px;
+  }
