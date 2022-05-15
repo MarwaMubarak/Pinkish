@@ -1,11 +1,10 @@
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
-
 }
 
-body{
+body {
     /* background-image: url("../image/Info_Cover.png"); */
     background-color: #fee5e6;
     background-repeat: no-repeat;
@@ -15,42 +14,41 @@ body{
     position: relative;
     text-align: center;
     background-position: 0;
-
 }
-.conatiner{
 
-    
+.conatiner {
     margin: 0 auto;
     padding: 0 3rem;
     margin-top: 4rem;
     text-align: center;
 }
-h1
-{
+
+h1 {
     font-size: 3rem;
     font-weight: 700;
     letter-spacing: 8px;
     color: #ef5284;
     margin-bottom: 2rem;
 }
-.im{
-margin-top: 2rem;
-margin-bottom:5rem;
 
+.im {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
 }
-h2{
+
+h2 {
     font-size: 2rem;
-    font-weight:400;
+    font-weight: 400;
     color: #ef5284;
-
-
 }
-p{
+
+p {
     font-size: 1rem;
     line-height: 1rem;
     margin-bottom: 5rem;
     color: #ef5284;
 }
+
 .home {
     background-position: top;
     background-size: cover;
@@ -67,27 +65,18 @@ p{
     color: #ef5284;
 }
 
-nav a {
-    text-decoration: none;
-    font-size: 20px;
-    color: #ef5284;
-    font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-right: 25px;
-    padding: 10px;
-    border-radius: 10px;
-}
-
 nav .activee {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
     font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: poppins;
     margin-right: 25px;
     padding: 10px;
     border-radius: 10px;
     background-color: #f9d7d8;
     color: black;
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
 }
 
 nav {
@@ -95,12 +84,33 @@ nav {
     align-items: center;
     justify-content: left;
     padding: 30px;
-    position: absolute;
-    left: 120px;
-    top: 30;
+}
+
+nav {
+    padding: 50, 0, 0, 0;
+    left: 20;
 }
 
 a:hover {
     background-color: #fee5e6;
     color: black;
+}
+
+.header img {
+    float: left;
+    width: 150px;
+    height: 90px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ef5284;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: poppins;
+    margin-right: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
 }
